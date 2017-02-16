@@ -15,7 +15,7 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
-user = raw_input("Please give the first person's username \n")
+user = raw_input("\nPlease give the first person's username \n")
 user2 = raw_input("\nPLease give the second person's username \n")
 print "\nPlease wait. This might take a while...\n\n"
 
