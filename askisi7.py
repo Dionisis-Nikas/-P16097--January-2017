@@ -10,7 +10,7 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
-user1 = raw_input("Please give the first person's username \n")
+user1 = raw_input("\n Please give the first person's username \n")
 user2 = raw_input("\nPLease give the second person's username \n")
 
 #first user
